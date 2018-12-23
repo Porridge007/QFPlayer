@@ -1,0 +1,47 @@
+﻿生成启动时间为 2018/3/18 23:04:42。
+     1>项目“E:\QFPlay 历史版本\QFPlay完全体\src\QFPlay\QFPlay\QFPlay.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(364,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>CustomBuild:
+         Moc'ing QFPlay.h...
+         Uic'ing QFPlay.ui...
+         Performing Custom Build Tools
+         Rcc'ing QFPlay.qrc...
+       ClCompile:
+         D:\软件包\VC\bin\x86_amd64\CL.exe /c /I..\..\include /I.\GeneratedFiles /I. /IF:\Qt\Qt5.9.1\5.9.1\msvc2013_64\include /I.\GeneratedFiles\Debug /IF:\Qt\Qt5.9.1\5.9.1\msvc2013_64\include\QtCore /IF:\Qt\Qt5.9.1\5.9.1\msvc2013_64\include\QtGui /IF:\Qt\Qt5.9.1\5.9.1\msvc2013_64\include\QtMultimedia /IF:\Qt\Qt5.9.1\5.9.1\msvc2013_64\include\QtWidgets /Zi /nologo /W1 /WX- /Od /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_MULTIMEDIA_LIB /D QT_WIDGETS_LIB /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt GeneratedFiles\Debug\moc_QFPlay.cpp GeneratedFiles\Debug\moc_QFSlider.cpp main.cpp QFAudioPlay.cpp QFFFmpeg.cpp QFPlay.cpp QFSlider.cpp QFVideoThread.cpp VideoWidget.cpp
+         moc_QFPlay.cpp
+         moc_QFSlider.cpp
+         main.cpp
+     1>e:\qfplay 历史版本\qfplay完全体\src\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         QFAudioPlay.cpp
+         QFFFmpeg.cpp
+     1>e:\qfplay 历史版本\qfplay完全体\src\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         QFPlay.cpp
+     1>e:\qfplay 历史版本\qfplay完全体\src\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         QFSlider.cpp
+         QFVideoThread.cpp
+     1>e:\qfplay 历史版本\qfplay完全体\src\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         VideoWidget.cpp
+     1>e:\qfplay 历史版本\qfplay完全体\src\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         正在生成代码...
+         D:\软件包\VC\bin\x86_amd64\CL.exe /c /I..\..\include /I.\GeneratedFiles /I. /IF:\Qt\Qt5.9.1\5.9.1\msvc2013_64\include /I.\GeneratedFiles\Debug /IF:\Qt\Qt5.9.1\5.9.1\msvc2013_64\include\QtCore /IF:\Qt\Qt5.9.1\5.9.1\msvc2013_64\include\QtGui /IF:\Qt\Qt5.9.1\5.9.1\msvc2013_64\include\QtMultimedia /IF:\Qt\Qt5.9.1\5.9.1\msvc2013_64\include\QtWidgets /Zi /nologo /W1 /WX- /Od /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_MULTIMEDIA_LIB /D QT_WIDGETS_LIB /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt GeneratedFiles\qrc_QFPlay.cpp
+         qrc_QFPlay.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\bin\rc.exe /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"x64\Debug\QFPlay.res" QFPlay.rc 
+       Link:
+         D:\软件包\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\..\bin\\QFPlay.exe" /NOLOGO /LIBPATH:..\..\..\lib /LIBPATH:F:\Qt\Qt5.9.1\5.9.1\msvc2013_64\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Multimediad.lib Qt5Widgetsd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\..\..\bin\QFPlay.pdb" /SUBSYSTEM:WINDOWS,"5.02" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\..\bin\QFPlay.lib" /MACHINE:X64 x64\Debug\QFPlay.res
+         x64\Debug\moc_QFPlay.obj
+         x64\Debug\moc_QFSlider.obj
+         x64\Debug\qrc_QFPlay.obj
+         x64\Debug\main.obj
+         x64\Debug\QFAudioPlay.obj
+         x64\Debug\QFFFmpeg.obj
+         x64\Debug\QFPlay.obj
+         x64\Debug\QFSlider.obj
+         x64\Debug\QFVideoThread.obj
+         x64\Debug\VideoWidget.obj
+         QFPlay.vcxproj -> E:\QFPlay 历史版本\QFPlay完全体\src\QFPlay\QFPlay\..\..\..\bin\QFPlay.exe
+     1>已完成生成项目“E:\QFPlay 历史版本\QFPlay完全体\src\QFPlay\QFPlay\QFPlay.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:29.71
